@@ -4,9 +4,9 @@ var google = require('googleapis');
 var googleAuth = require('google-auth-library');
 
 var bot = linebot({
-  channelId: '<your channelId>',
-  channelSecret: '<your channelSecret>',
-  channelAccessToken: '<your channelAccessToken>'
+  channelId: '1654070727',
+  channelSecret: '8bbe47439649fb8e5d0062701c92330d',
+  channelAccessToken: '5lL/A9DmiGIF8zPinW2JZAFc1XuZHd3Bm7jcTZQ8OuJxETRiEhLKgo4NLSjLu51qsLmTRp7ZWbUjkgw9umOBKcpjjzCu/REJCERZbvGoAfWDImrhaPqXOCzgFxTSn+TnlpanSC0l2by/y62jy28JUwdB04t89/1O/w1cDnyilFU='
 });
 
 var myClientSecret=<複製你的client_secret內容>
@@ -16,7 +16,7 @@ var oauth2Client = new auth.OAuth2(myClientSecret.installed.client_id,myClientSe
 
 oauth2Client.credentials =<複製sheetapi.json檔案的內容>
 
-var mySheetId='<google sheets ID>';
+var mySheetId='1c-5BOm19g9XVknQVdZEBsrH6WH6nRTd_VJ2IyJZc6fk/edit';
 
 var myQuestions=[];
 var users=[];
